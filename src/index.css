@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+hr{ 
+  
+  border:         none;
+ 
+  height:         100%;
+ 
+  width: 2px;
+ 
+    background-color: rgb(234, 234, 234);    
+}
+
+.swiper {
+  padding-bottom: 50px!important;
+}
+
+:root {
+  --swiper-theme-color: #000000!important;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.blink {
+  animation: blink 1s linear infinite;
+}
+
+
+
+.video-frame {
+  width: 90%;
+  aspect-ratio: 16 / 9; /* Mantiene el aspecto de los videos */
+}
+
+
+/* Ajusta la posición de la flecha de navegación derecha */
+.swiper-button-next {
+  right: -0px; /* Mueve la flecha más hacia fuera del contenedor a la derecha */
+}
+
+/* Ajusta la posición de la flecha de navegación izquierda */
+.swiper-button-prev {
+  left: -0px; /* Mueve la flecha más hacia fuera del contenedor a la izquierda */
+}
+
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
