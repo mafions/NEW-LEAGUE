@@ -31,7 +31,7 @@ const Table = () => {
                     <thead className="text-xs sm:text-sm text-gray-700 uppercase bg-gray-50 sticky top-0 z-10">
                         <tr>
                             <th className="px-6 py-3">#</th>
-                            <th className="px-6 py-3">Equipo</th>
+                            <th className="px-6 py-3">Jamoalar</th>
                             <th className="px-6 py-3">PTS</th>
                             <th className="px-6 py-3">PJ</th>
                             <th className="px-6 py-3">V</th>

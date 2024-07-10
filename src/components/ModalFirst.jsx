@@ -19,9 +19,9 @@ export const ModalFirst = ({ onClose }) => {
         </div>
         
         <div className='flex flex-col justify-center items-center'>
-          <p className='text-white text-xl lg:text-6xl font-bold lg:mb-12 my-4'>¡ATENCIÓN!</p>
-          <p className='font-semibold  text-xs lg:text-xl text-white'>Este sitio web ha sido desarrollado con fines educativos y opera gracias a una API gratuita. Para evitar superar el límite de solicitudes, te solicitamos evitar recargar la página innecesariamente.</p>
-          <button onClick={onClose} className='mt-4 bg-[#0b1121] text-white font-bold py-2 px-4 rounded transition-all hover:scale-105'>Entendido</button>
+          <p className='text-white text-xl lg:text-6xl font-bold lg:mb-12 my-4'>¡Diqqat! 😎</p>
+          <p className='font-semibold  text-xs lg:text-xl text-white'>DIQQAT Ushbu veb-sayt ta'lim maqsadida ishlab chiqilgan va bepul API tufayli ishlaydi. So'rov chegarasidan oshib ketmaslik uchun sahifani keraksiz qayta yuklamaslikni so'raymiz. #Nodirbek</p>
+          <button onClick={onClose} className='mt-4 bg-[#0b1121] text-white font-bold py-2 px-4 rounded transition-all hover:scale-105'>Tushundim</button>
 
         </div>
       </div>
