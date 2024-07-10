@@ -67,7 +67,7 @@ export const MatchDayComponent = () => {
   return (
     <div className='bg-[#ffffff] px-4 lg:px-40 py-6 ' id='directo'>
       <div className="container ">
-        <h2 className='text-black font-bold text-2xl mb-8 pt-6'> KUTILAYOTGAN O'YINLAR  {currentMatchday}</h2>
+        <h2 className='text-black font-bold text-2xl mb-8 pt-6'> KUTILAYOTGAN O'YINLAR  </h2>
       </div>
       <Swiper
         spaceBetween={10}
