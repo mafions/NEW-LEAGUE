@@ -14,7 +14,7 @@ export const AllJamoalar = [
     {
         id: 1,
         name: "MFC",
-        Orin: 6,
+        Orin: 1,
         img: "https://e7.pngegg.com/pngimages/498/41/png-clipart-real-madrid-c-f-2011-12-la-liga-football-sport-decal-football-sport-logo.png ",
         oyin: "0",
         galaba: "0",
@@ -83,7 +83,7 @@ export const AllJamoalar = [
     {
         id: 7,
         name: "1996",
-        Orin: 1,
+        Orin: 2,
         img: "https://sport-results.ru/wp-content/uploads/2023/04/borussia_dortmund_logo.svg.png",
         achko: "0",
         galaba: "0",
@@ -153,7 +153,7 @@ export const AllJamoalar = [
     {
         id: 10,
         name: "1994",
-        Orin: 2,
+        Orin: 3,
         img: "https://i1.wp.com/www.logolynx.com/images/logolynx/35/354731294375cebc25559ce1621c9ae4.jpeg",
         oyin: "0",
         galaba: "0",
@@ -223,7 +223,7 @@ export const AllJamoalar = [
     {
         id: 6,
         name: "1995",
-        Orin: 3,
+        Orin: 4,
         img: "https://i.pinimg.com/originals/14/6e/0f/146e0f3a0694840f9349e5edf0e7b1f1.png",
         oyin: "0",
         galaba: "0",
@@ -293,7 +293,7 @@ export const AllJamoalar = [
     {
         id: 2,
         name: "1999",
-        Orin: 4,
+        Orin: 5,
         img: "https://grizly.club/uploads/posts/2023-08/1691677799_grizly-club-p-kartinki-logo-liverpulya-bez-fona-8.png",
         oyin: "0",
         galaba: "0",
@@ -351,7 +351,7 @@ export const AllJamoalar = [
     {
         id: 9,
         name: "1992",
-        Orin: 5,
+        Orin: 6,
         img: "https://basket-03.wb.ru/vol346/part34646/34646194/images/big/1.jpg",
         oyin: "0",
         galaba: "0",
