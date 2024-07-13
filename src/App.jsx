@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
-import { MatchDayComponent } from './components/MatchDayComponent';
+import  MatchDayComponent  from './components/MatchDayComponent';
 import { LastMatchday } from './components/LastMatchday';
 import { Navbar } from './components/Navbar';
 import { ModalFirst } from './components/ModalFirst';

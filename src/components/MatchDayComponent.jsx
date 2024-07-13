@@ -1,15 +1,14 @@
-
 import React, { useState, useEffect } from 'react';
 import referee from '/src/assets/logos/referee.svg';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
+import 'swiper/swiper-bundle.css';
+import { Pagination } from 'swiper/modules';
+
 import 'swiper/css/pagination';
 import Redpoint from '/src/assets/Redpoint.svg';
+import { data } from './Kutilyotgan'; // Assuming this is correctly imported
 
-// Berilgan ma'lumotlarni import qilamiz
-import { data } from './Kutilyotgan'; // data faylini kerakli joyga o'rnating
-
-export const MatchDayComponent = () => {
+const MatchDayComponent = () => {
   const [matches, setMatches] = useState([]);
   const [currentMatchday, setCurrentMatchday] = useState('');
 
@@ -19,14 +18,14 @@ export const MatchDayComponent = () => {
     if (localMatchday) {
       setCurrentMatchday(localMatchday);
     } else {
-      setCurrentMatchday(data.response[0].fixture.id.toString()); // data ma'lumotlari yoki nomini o'rnating
+      setCurrentMatchday(data.response[0]?.fixture?.id.toString()); // Ensure data.response is correctly structured
     }
   }, []);
 
   useEffect(() => {
     // Joriy matchday bo'yicha o'yinlarni olish
     if (currentMatchday) {
-      const matchesData = data.response; // data ma'lumotlari yoki nomini o'rnating
+      const matchesData = data.response; // Assuming data.response contains the array of matches
       setMatches(matchesData);
       localStorage.setItem('matchesData', JSON.stringify(matchesData));
     }
@@ -49,40 +48,57 @@ export const MatchDayComponent = () => {
 
   const getMatchStatus = (status) => {
     if (status === "Full Time") {
-      return <div className=' bg-[#7685a5]  flex items-center justify-center py-1 rounded-b-lg'><p className='text-white font-semibold text-sm'>Shiddatli 😍  </p> </div>;
+      return <div className='bg-[#7685a5] flex items-center justify-center py-1 rounded-b-lg'><p className='text-white font-semibold text-sm'>Shiddatli 😍</p></div>;
     } else if (status === "In Play") {
-      return <div className='bg-[#ff4b44] flex items-center justify-center py-1 rounded-b-lg'> <p className='text-white font-semibold text-sm'>EN JUEGO</p> </div>;
+      return <div className='bg-[#ff4b44] flex items-center justify-center py-1 rounded-b-lg'><p className='text-white font-semibold text-sm'>EN JUEGO</p></div>;
     } else {
-      return <div className=' bg-[#111827] flex items-center justify-center py-1 rounded-b-lg'><p className='text-white font-semibold text-sm'>PRÓXIMAMENTE</p> </div>;
+      return <div className='bg-[#111827] flex items-center justify-center py-1 rounded-b-lg'><p className='text-white font-semibold text-sm'>PRÓXIMAMENTE</p></div>;
     }
   };
 
   const liveMatch = (status) => {
     if (status === "In Play") {
-      return <div className='flex gap-1'> <img src={Redpoint} className='w-2 blink' alt="" /> <p className='text-red-600 text-xs font-bold'>En directo</p></div>
+      return <div className='flex gap-1'><img src={Redpoint} className='w-2 blink' alt="" /><p className='text-red-600 text-xs font-bold'>En directo</p></div>;
     }
     return null;
   };
 
   return (
     <div className='bg-[#ffffff] px-4 lg:px-40 py-6 ' id='directo'>
-      <div className="container ">
-        <h2 className='text-black font-bold text-2xl mb-8 pt-6'> KUTILAYOTGAN O'YINLAR  </h2>
+      <div className="container">
+        <h2 className='text-black font-bold text-2xl mb-8 pt-6'>KUTILAYOTGAN O'YINLAR</h2>
       </div>
       <Swiper
+       modules={[ Pagination]}
         spaceBetween={10}
         slidesPerView={1}
-        pagination={{ clickable: true }}
+        
+  pagination={{ clickable: true }}
         breakpoints={{
-          640: { slidesPerView: 1 },
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 2 },
-          1308: { slidesPerView: 3 },
-          1715: { slidesPerView: 4 },
+          640: {
+            slidesPerView: 1,
+           
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          
+          1024: {
+            slidesPerView: 2,
+           
+          },
+          1308: {
+            slidesPerView: 3,
+           
+          },
+          1715: {
+            slidesPerView: 4,
+         
+          },
         }}
       >
         {matches.map((match, index) => {
-          const { fixture, league, teams, score, events } = match;
+          const { fixture, league, teams, score } = match;
           const { formattedDate, formattedTime } = formatDateAndTime(fixture.date);
 
           return (
@@ -94,9 +110,9 @@ export const MatchDayComponent = () => {
                       <p>{formattedDate}</p>
                       <p>{formattedTime}</p>
                     </div>
-                    <div className='bg-white px-4 py-2 grid  md:grid-cols-3 md:px-4 px-8 grid-cols-2 '>
+                    <div className='bg-white px-4 py-2 grid md:grid-cols-3 md:px-4 px-8 grid-cols-2'>
                       <div className='flex flex-col col-span-2'>
-                        <div className='flex  items-center'>
+                        <div className='flex items-center'>
                           <p className='text-sm font-semibold'>{teams.home.name}</p>
                           <img src={teams.home.logo} alt='' className='w-6' />
                           <p className='text-2xl font-bold'>{score.fulltime.home} - {score.fulltime.away}</p>
@@ -112,11 +128,7 @@ export const MatchDayComponent = () => {
                         <div className='flex flex-col'>
                           <div className='flex gap-1 items-center'>
                             <img src={referee} alt='' className='w-2' />
-                            {fixture.referee ? (
-                              <p className='font-bold text-[9px]'>{fixture.referee}</p>
-                            ) : (
-                              <p className='font-bold text-[9px]'>MAFION</p>
-                            )}
+                            <p className='font-bold text-[9px]'>{fixture.referee || 'MAFION'}</p>
                           </div>
                           {liveMatch(fixture.status.long)}
                         </div>
@@ -133,6 +145,8 @@ export const MatchDayComponent = () => {
     </div>
   );
 };
+
+export default MatchDayComponent;
 
 
 // import React, { useState, useEffect } from 'react';
