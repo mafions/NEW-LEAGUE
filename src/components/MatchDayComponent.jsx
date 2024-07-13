@@ -13,7 +13,6 @@ const MatchDayComponent = () => {
   const [currentMatchday, setCurrentMatchday] = useState('');
 
   useEffect(() => {
-    // LocalStorage dan joriy matchdayni olish
     const localMatchday = localStorage.getItem('currentMatchday');
     if (localMatchday) {
       setCurrentMatchday(localMatchday);
