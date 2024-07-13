@@ -15,7 +15,7 @@ export const AllJamoalar = [
         id: 1,
         name: "MFC",
         Orin: 6,
-        img: "http://s3-eu-west-1.amazonaws.com/product-img/75319_maxi_0.jpg ",
+        img: "https://e7.pngegg.com/pngimages/498/41/png-clipart-real-madrid-c-f-2011-12-la-liga-football-sport-decal-football-sport-logo.png ",
         oyin: "0",
         galaba: "0",
         maglubiyat: "0",  

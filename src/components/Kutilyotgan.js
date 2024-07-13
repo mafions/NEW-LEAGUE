@@ -433,7 +433,7 @@ export const data = {
         home: {
           id: 55,
           name: "MFC",
-          logo: "http://s3-eu-west-1.amazonaws.com/product-img/75319_maxi_0.jpg",
+          logo: "https://e7.pngegg.com/pngimages/498/41/png-clipart-real-madrid-c-f-2011-12-la-liga-football-sport-decal-football-sport-logo.png",
           winner: false,
         },
         away: {
