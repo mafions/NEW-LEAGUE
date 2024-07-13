@@ -128,7 +128,7 @@ const MatchDayComponent = () => {
                         <div className='flex flex-col'>
                           <div className='flex gap-1 items-center'>
                             <img src={referee} alt='' className='w-2' />
-                            <p className='font-bold text-[9px]'>{fixture.referee || 'MAFION'}</p>
+                            <p className='font-bold text-[9px] bg-red-600 text-white'>{fixture.referee || 'Nodirbek'}</p>
                           </div>
                           {liveMatch(fixture.status.long)}
                         </div>

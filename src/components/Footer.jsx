@@ -11,8 +11,8 @@ export const Footer = () => {
     const socialNetworks = [
         { id: 1, name : 'facebook', src: fb, href: "https://www.facebook.com/LaLiga" },
         { id: 2, name : 'x', src: x, href: "https://www.instagram.com/laliga/" },
-        { id: 3, name : 'insta', src: insta , href: "https://twitter.com/laliga"},
-        { id: 4, name : 'youtube', src: youtube, href: "https://www.youtube.com/user/laliga" },
+        { id: 3, name : 'insta', src: insta , href: "https://instagram.com/mafion_06/"},
+        { id: 4, name : 'youtube', src: youtube, href: "https://youtube.com/@maf1on_06?si=peBI9FyRQ6o1flzz" },
         { id: 5, name : 'tiktok', src: tiktok, href: "https://www.tiktok.com/@laliga" },
     ]
 
@@ -35,7 +35,7 @@ export const Footer = () => {
         ))
 
         }
-            <a href="" className='px-6 py-3 bg-[#ff4b44] text-xs lg:text-base text-white font-semibold hover:scale-110'>WEB OFICIAL</a>
+            <a href="" className='px-6 py-3 bg-[#ff4b44] text-xs lg:text-base text-white font-semibold hover:scale-110'>Insta: mafion_06</a>
        </div>
     
     </footer>

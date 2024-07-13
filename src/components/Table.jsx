@@ -5,13 +5,10 @@ const Table = () => {
     const [table, setTable] = useState([]);
 
     useEffect(() => {
-        // Set the table data from AllJamoalar
         setTable(AllJamoalar);
     }, []);
 
     const getColor = (position) => {
-        // Add your logic to get color based on position
-        // Example logic, modify as per your requirements
         if ([1, 2, 3, 4].includes(position)) {
             return "px-4 py-2 text-center text-white font-bold bg-[#004682]";
         } else if (position === 5) {
@@ -31,15 +28,15 @@ const Table = () => {
                     <thead className="text-xs sm:text-sm text-gray-700 uppercase bg-gray-50 sticky top-0 z-10">
                         <tr>
                             <th className="px-6 py-3">#</th>
-                            <th className="px-6 py-3">Jamoalar</th>
-                            <th className="px-6 py-3">PTS</th>
-                            <th className="px-6 py-3">PJ</th>
-                            <th className="px-6 py-3">V</th>
-                            <th className="px-6 py-3">E</th>
+                            <th className="px-6 py-3">Jamoa</th>
+                            <th className="px-6 py-3">O</th>
+                            <th className="px-6 py-3">G'</th>
                             <th className="px-6 py-3">D</th>
-                            <th className="px-6 py-3">GA</th>
-                            <th className="px-6 py-3">GC</th>
-                            <th className="px-6 py-3">DF</th>
+                            <th className="px-6 py-3">M</th>
+                            <th className="px-6 py-3">T/F</th>
+                            <th className="px-6 py-3">O'</th>
+                            {/* <th className="px-6 py-3">GC</th> */}
+                            {/* <th className="px-6 py-3">DF</th> */}
                         </tr>
                     </thead>
                     <tbody className='text-black'>
@@ -52,14 +49,14 @@ const Table = () => {
                                         {team.name}
                                     </div>
                                 </td>
-                                <td className="px-6 py-2 text-sm font-bold">{team.achko}</td>
+                                <td className="px-6 py-2 text-sm font-bold text-red-600">{team.achko}</td>
+                                <td className="px-6 py-2 text-sm">{team.galaba}</td>
+                                <td className="px-6 py-2 text-sm">{team.Durrang}</td>
+                                <td className="px-6 py-2 text-sm">{team.maglubiyat}</td>
+                                <td className="px-6 py-2 text-sm">{team.gollar}</td>
                                 <td className="px-6 py-2 text-sm">{team.oyin}</td>
-                                <td className="px-6 py-2 text-sm">{team.HammaSariq}</td>
-                                <td className="px-6 py-2 text-sm">{team.HammaQizil}</td>
-                                <td className="px-6 py-2 text-sm">{team.achko}</td>
-                                <td className="px-6 py-2 text-sm">{team.achko}</td>
-                                <td className="px-6 py-2 text-sm">{team.achko}</td>
-                                <td className="px-6 py-2 text-sm">{team.achko}</td>
+                                {/* <td className="px-6 py-2 text-sm">{team.HammaSariq}</td> */}
+                                {/* <td className="px-6 py-2 text-sm">{team.HammaQizil}</td> */}
                             </tr>
                         ))}
                     </tbody>
