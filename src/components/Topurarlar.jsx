@@ -65,6 +65,33 @@ const Topurarlar = () => {
               <p>Age: 28 </p>
               <h4>
                 <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
+                &nbsp;&nbsp;&nbsp; 3 goals
+              </h4>
+            </section>
+            <br style={{ clear: 'both' }} />
+            <hr />
+          </section>
+
+
+          <section className="container" id="Dostonbek">
+            <img src="https://bobsoccer.ru/data/photo/30409.119724.111.jpg" alt="Ronaldo" style={{ width: '100%' }} />
+            <section className="text-block">
+              <h3>Dostonbek</h3>
+              {/* <p>
+                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
+                <span className="HideTxt"> Portugal </span>
+              </p> */}
+              <p>
+                Club: <img src="https://basket-03.wb.ru/vol346/part34646/34646194/images/big/1.jpg" alt="1992" className="club" />
+                <span className="HideTxt"> 1992 </span>
+              </p>
+              <p>
+                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
+                <span className="HideTxt"> Liga 3# </span>
+              </p>
+              <p>Age: ? </p>
+              <h4>
+                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
                 &nbsp;&nbsp;&nbsp; 2 goals
               </h4>
             </section>
@@ -231,31 +258,7 @@ const Topurarlar = () => {
           </section>
 
 
-          <section className="container" id="Dostonbek">
-            <img src="https://bobsoccer.ru/data/photo/30409.119724.111.jpg" alt="Ronaldo" style={{ width: '100%' }} />
-            <section className="text-block">
-              <h3>Dostonbek</h3>
-              {/* <p>
-                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
-                <span className="HideTxt"> Portugal </span>
-              </p> */}
-              <p>
-                Club: <img src="https://basket-03.wb.ru/vol346/part34646/34646194/images/big/1.jpg" alt="1992" className="club" />
-                <span className="HideTxt"> 1992 </span>
-              </p>
-              <p>
-                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
-                <span className="HideTxt"> Liga 3# </span>
-              </p>
-              <p>Age: ? </p>
-              <h4>
-                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
-                &nbsp;&nbsp;&nbsp; 2 goals
-              </h4>
-            </section>
-            <br style={{ clear: 'both' }} />
-            <hr />
-          </section>
+          
 
 
           <section className="container" id="Elyorbek">
