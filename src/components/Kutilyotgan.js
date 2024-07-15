@@ -15,7 +15,7 @@ export const data = {
         id: 1,
         referee: null,
         timezone: "UTC",
-        date: "2024-07-14T20:00",
+        date: "2024-07-16T20:00",
         timestamp: 1,
         periods: {
           first: 1,
@@ -34,7 +34,7 @@ export const data = {
       },
       league: {
         id: 11,
-        name: " 1 - TUR",
+        name: " 2 - TUR",
         country: "UZBEKISTAN",
         logo: "https://www.pinclipart.com/picdir/big/209-2095185_champions-league-logo-champions-league-football-logo-clipart.png",
         flag: "https://media-3.api-sports.io/flags/dk.svg",
@@ -44,14 +44,14 @@ export const data = {
       teams: {
         home: {
           id: 11,
-          name: "2006",
-          logo: "https://ir.ozone.ru/s3/multimedia-9/6623358309.jpg",
+          name: "Shilvi",
+          logo: "https://i.pinimg.com/originals/a8/1a/72/a81a7215b02f6a9a6b5b1b28d2f2882f.png",
           winner: false,
         },
         away: {
           id: 11,
-          name: "1995",
-          logo: "https://i.pinimg.com/originals/14/6e/0f/146e0f3a0694840f9349e5edf0e7b1f1.png",
+          name: "2001",
+          logo: "https://e7.pngegg.com/pngimages/498/41/png-clipart-real-madrid-c-f-2011-12-la-liga-football-sport-decal-football-sport-logo.png",
           winner: true,
         },
       },
@@ -112,7 +112,7 @@ export const data = {
         id: 2,
         referee: null,
         timezone: "UTC",
-        date: "2024-07-14T20:40",
+        date: "2024-07-16T20:40",
         timestamp: 2,
         periods: {
           first: 2,
@@ -131,7 +131,7 @@ export const data = {
       },
       league: {
         id: 2,
-        name: " 1 - TUR",
+        name: " 2 - TUR",
         country: "UZBEKISTAN",
         logo: "https://www.pinclipart.com/picdir/big/209-2095185_champions-league-logo-champions-league-football-logo-clipart.png",
         flag: "https://media-3.api-sports.io/flags/dk.svg",
@@ -141,8 +141,8 @@ export const data = {
       teams: {
         home: {
           id: 22,
-          name: "2001",
-          logo: "https://www.roma.sportland24.ru/service/images/team_photo/Napoli.png",
+          name: "2006",
+          logo: "https://ir.ozone.ru/s3/multimedia-9/6623358309.jpg",
           winner: false,
         },
         away: {
@@ -209,7 +209,7 @@ export const data = {
         id: 3,
         referee: null,
         timezone: "UTC",
-        date: "2024-07-14T21:20",
+        date: "2024-07-16T21:20",
         timestamp: 3,
         periods: {
           first: 3,
@@ -228,7 +228,7 @@ export const data = {
       },
       league: {
         id: 3,
-        name: " 1 - TUR",
+        name: " 2 - TUR",
         country: "UZBEKISTAN",
         logo: "https://www.pinclipart.com/picdir/big/209-2095185_champions-league-logo-champions-league-football-logo-clipart.png",
         flag: "https://media-3.api-sports.io/flags/dk.svg",
@@ -238,14 +238,14 @@ export const data = {
       teams: {
         home: {
           id: 33,
-          name: "Shilvi",
-          logo: "https://i.pinimg.com/originals/a8/1a/72/a81a7215b02f6a9a6b5b1b28d2f2882f.png",
+          name: "MFC",
+          logo: "https://vectorseek.com/wp-content/uploads/2023/10/Dfb-Logo-Vector.svg-.png",
           winner: false,
         },
         away: {
           id: 33,
-          name: "1996",
-          logo: "https://sport-results.ru/wp-content/uploads/2023/04/borussia_dortmund_logo.svg.png",
+          name: "1992", 
+          logo: "https://basket-03.wb.ru/vol346/part34646/34646194/images/big/1.jpg",
           winner: true,
         },
       },
@@ -306,7 +306,7 @@ export const data = {
         id: 4,
         referee: null,
         timezone: "UTC",
-        date: "2024-07-14T22:00",
+        date: "2024-07-16T22:00",
         timestamp: 4,
         periods: {
           first: 4,
@@ -325,7 +325,7 @@ export const data = {
       },
       league: {
         id: 4,
-        name: " 1 - TUR",
+        name: " 2 - TUR",
         country: "UZBEKISTAN",
         logo: "https://www.pinclipart.com/picdir/big/209-2095185_champions-league-logo-champions-league-football-logo-clipart.png",
         flag: "https://media-3.api-sports.io/flags/dk.svg",
@@ -341,8 +341,8 @@ export const data = {
         },
         away: {
           id: 44,
-          name: "1992",
-          logo: "https://basket-03.wb.ru/vol346/part34646/34646194/images/big/1.jpg",
+          name: "1996",
+          logo: "https://sport-results.ru/wp-content/uploads/2023/04/borussia_dortmund_logo.svg.png",
           winner: true,
         },
       },
@@ -403,7 +403,7 @@ export const data = {
         id: 5,
         referee: null,
         timezone: "UTC",
-        date: "2024-07-14T22:40",
+        date: "2024-07-16T22:40",
         timestamp: 5,
         periods: {
           first: 5,
@@ -422,7 +422,7 @@ export const data = {
       },
       league: {
         id: 5,
-        name: " 1 - TUR",
+        name: " 2 - TUR",
         country: "UZBEKISTAN",
         logo: "https://www.pinclipart.com/picdir/big/209-2095185_champions-league-logo-champions-league-football-logo-clipart.png",
         flag: "https://media-3.api-sports.io/flags/dk.svg",
@@ -432,8 +432,8 @@ export const data = {
       teams: {
         home: {
           id: 55,
-          name: "MFC",
-          logo: "https://e7.pngegg.com/pngimages/498/41/png-clipart-real-madrid-c-f-2011-12-la-liga-football-sport-decal-football-sport-logo.png",
+          name: "1995",
+          logo:"https://i.pinimg.com/originals/14/6e/0f/146e0f3a0694840f9349e5edf0e7b1f1.png",
           winner: false,
         },
         away: {

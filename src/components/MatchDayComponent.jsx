@@ -6,7 +6,7 @@ import { Pagination } from 'swiper/modules';
 
 import 'swiper/css/pagination';
 import Redpoint from '/src/assets/Redpoint.svg';
-import { data } from './Kutilyotgan'; // Assuming this is correctly imported
+import { data } from './Kutilyotgan'; 
 
 const MatchDayComponent = () => {
   const [matches, setMatches] = useState([]);
@@ -47,7 +47,7 @@ const MatchDayComponent = () => {
 
   const getMatchStatus = (status) => {
     if (status === "Full Time") {
-      return <div className='bg-[#7685a5] flex items-center justify-center py-1 rounded-b-lg'><p className='text-white font-semibold text-sm'>Shiddatli 😍</p></div>;
+      return <div className='bg-[#7685a5] flex items-center justify-center py-1 rounded-b-lg'><p className='text-white font-semibold text-sm'> RAQOBATLI 😱</p></div>;
     } else if (status === "In Play") {
       return <div className='bg-[#ff4b44] flex items-center justify-center py-1 rounded-b-lg'><p className='text-white font-semibold text-sm'>EN JUEGO</p></div>;
     } else {
