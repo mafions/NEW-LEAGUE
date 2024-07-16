@@ -47,7 +47,7 @@ const Topurarlar = () => {
           </section>
 
           <section className="container" id="Abrorbek">
-            <img src="https://i2-prod.manchestereveningnews.co.uk/incoming/article6405713.ece/ALTERNATES/s1227b/PA_SOCCER-Man-City-131073_7133394.jpg" alt="Ronaldo" style={{ width: '100%' }} />
+            <img src="https://football-fun-live.com/uploads/39/posts/min-2.jpg" alt="Ronaldo" style={{ width: '100%' }} />
             <section className="text-block">
               <h3>Abrorbek</h3>
               {/* <p>
@@ -314,7 +314,7 @@ const Topurarlar = () => {
           </section>
 
           <section className="container" id="Kamoliddin">
-            <img src="https://football-fun-live.com/uploads/39/posts/min-2.jpg" alt="Ronaldo" style={{ width: '100%' }} />
+            <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltd51750bbf3c0d23e/60df1f67291ae22336471a7b/eda450984d72c58d3e676467a781a00e84bade29.jpg" alt="Ronaldo" style={{ width: '100%' }} />
             <section className="text-block">
               <h3>Kamoliddin</h3>
               {/* <p>
@@ -330,6 +330,60 @@ const Topurarlar = () => {
                 <span className="HideTxt"> Liga 3# </span>
               </p>
               <p>Age: 20 </p>
+              <h4>
+                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
+                &nbsp;&nbsp;&nbsp; 1 goals
+              </h4>
+            </section>
+            <br style={{ clear: 'both' }} />
+            <hr />
+          </section>
+
+
+          <section className="container" id="Elyor">
+            <img src="https://photosota.club/uploads/posts/2023-04/1680666899_photosota-club-p-son-khen-min-futbolist-16.jpg" alt="Ronaldo" style={{ width: '100%' }} />
+            <section className="text-block">
+              <h3>Elyor</h3>
+              {/* <p>
+                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
+                <span className="HideTxt"> Portugal </span>
+              </p> */}
+              <p>
+                Club: <img src="https://i.pinimg.com/originals/a8/1a/72/a81a7215b02f6a9a6b5b1b28d2f2882f.png" alt="Shilvi" className="club" />
+                <span className="HideTxt"> Shilvi </span>
+              </p>
+              <p>
+                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
+                <span className="HideTxt"> Liga 3# </span>
+              </p>
+              <p>Age: ? </p>
+              <h4>
+                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
+                &nbsp;&nbsp;&nbsp; 1 goals
+              </h4>
+            </section>
+            <br style={{ clear: 'both' }} />
+            <hr />
+          </section>
+
+
+          <section className="container" id="Oqiljon">
+            <img src="https://odds.ru/upload/media/default/0002/14/50766ab9f90c99e9985a21a832e85bd9b7909ee9.jpg" alt="Ronaldo" style={{ width: '100%' }} />
+            <section className="text-block">
+              <h3>Oqiljon</h3>
+              {/* <p>
+                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
+                <span className="HideTxt"> Portugal </span>
+              </p> */}
+              <p>
+                Club: <img src="https://i.pinimg.com/originals/a8/1a/72/a81a7215b02f6a9a6b5b1b28d2f2882f.png" alt="Shilvi" className="club" />
+                <span className="HideTxt"> Shilvi </span>
+              </p>
+              <p>
+                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
+                <span className="HideTxt"> Liga 3# </span>
+              </p>
+              <p>Age: ? </p>
               <h4>
                 <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
                 &nbsp;&nbsp;&nbsp; 1 goals
