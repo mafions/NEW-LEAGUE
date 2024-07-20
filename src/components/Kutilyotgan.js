@@ -15,7 +15,7 @@ export const data = {
         id: 1,
         referee: null,
         timezone: "UTC",
-        date: "2024-07-16T20:00",
+        date: "2024-07-21T20:00",
         timestamp: 1,
         periods: {
           first: 1,
@@ -112,7 +112,7 @@ export const data = {
         id: 2,
         referee: null,
         timezone: "UTC",
-        date: "2024-07-16T20:40",
+        date: "2024-07-21T20:40",
         timestamp: 2,
         periods: {
           first: 2,
@@ -141,14 +141,14 @@ export const data = {
       teams: {
         home: {
           id: 22,
-          name: "1996",
-          logo: "https://sport-results.ru/wp-content/uploads/2023/04/borussia_dortmund_logo.svg.png",
+          name: "1995",
+          logo: "https://i.pinimg.com/originals/14/6e/0f/146e0f3a0694840f9349e5edf0e7b1f1.png",
           winner: false,
         },
         away: {
           id: 22,
-          name: "2003",
-          logo: "https://cdn.shopify.com/s/files/1/0518/3432/3098/products/Milanlogomockupfuljpeg.jpg?v=1659529798",
+          name: "1992",
+          logo: "https://basket-03.wb.ru/vol346/part34646/34646194/images/big/1.jpg",
           winner: true,
         },
       },
@@ -209,7 +209,7 @@ export const data = {
         id: 3,
         referee: null,
         timezone: "UTC",
-        date: "2024-07-16T21:20",
+        date: "2024-07-21T21:20",
         timestamp: 3,
         periods: {
           first: 3,
@@ -238,14 +238,14 @@ export const data = {
       teams: {
         home: {
           id: 33,
-          name: "MFC",
-          logo: "https://vectorseek.com/wp-content/uploads/2023/10/Dfb-Logo-Vector.svg-.png",
+          name: "1996",
+          logo: "https://sport-results.ru/wp-content/uploads/2023/04/borussia_dortmund_logo.svg.png ",
           winner: false,
         },
         away: {
           id: 33,
-          name: "2001", 
-          logo: "https://e7.pngegg.com/pngimages/498/41/png-clipart-real-madrid-c-f-2011-12-la-liga-football-sport-decal-football-sport-logo.png",
+          name: "2003", 
+          logo: "https://cdn.shopify.com/s/files/1/0518/3432/3098/products/Milanlogomockupfuljpeg.jpg?v=1659529798",
           winner: true,
         },
       },
@@ -306,7 +306,7 @@ export const data = {
         id: 4,
         referee: null,
         timezone: "UTC",
-        date: "2024-07-16T22:00",
+        date: "2024-07-21T22:00",
         timestamp: 4,
         periods: {
           first: 4,
@@ -335,14 +335,14 @@ export const data = {
       teams: {
         home: {
           id: 44,
-          name: "1992",
-          logo: "https://basket-03.wb.ru/vol346/part34646/34646194/images/big/1.jpg",
+          name: "1999",
+          logo: "https://grizly.club/uploads/posts/2023-08/1691677799_grizly-club-p-kartinki-logo-liverpulya-bez-fona-8.png",
           winner: false,
         },
         away: {
           id: 44,
-          name: "1995",
-          logo: "https://i.pinimg.com/originals/14/6e/0f/146e0f3a0694840f9349e5edf0e7b1f1.png",
+          name: "Shilvi",
+          logo: "https://i.pinimg.com/originals/a8/1a/72/a81a7215b02f6a9a6b5b1b28d2f2882f.png",
           winner: true,
         },
       },
@@ -403,7 +403,7 @@ export const data = {
         id: 5,
         referee: null,
         timezone: "UTC",
-        date: "2024-07-16T22:40",
+        date: "2024-07-21T22:40",
         timestamp: 5,
         periods: {
           first: 5,
@@ -432,14 +432,14 @@ export const data = {
       teams: {
         home: {
           id: 55,
-          name: "Shilvi",
-          logo:"https://i.pinimg.com/originals/a8/1a/72/a81a7215b02f6a9a6b5b1b28d2f2882f.png",
+          name: "MFC",
+          logo:"https://vectorseek.com/wp-content/uploads/2023/10/Dfb-Logo-Vector.svg-.png",
           winner: false,
         },
         away: {
           id: 55,
-          name: "1999",
-          logo: "https://grizly.club/uploads/posts/2023-08/1691677799_grizly-club-p-kartinki-logo-liverpulya-bez-fona-8.png",
+          name: "2001",
+          logo: "https://e7.pngegg.com/pngimages/498/41/png-clipart-real-madrid-c-f-2011-12-la-liga-football-sport-decal-football-sport-logo.png",
           winner: true,
         },
       },
