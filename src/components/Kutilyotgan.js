@@ -34,7 +34,7 @@ export const data = {
       },
       league: {
         id: 11,
-        name: " 2 - TUR",
+        name: " 4 - TUR",
         country: "UZBEKISTAN",
         logo: "https://www.pinclipart.com/picdir/big/209-2095185_champions-league-logo-champions-league-football-logo-clipart.png",
         flag: "https://media-3.api-sports.io/flags/dk.svg",
@@ -44,14 +44,14 @@ export const data = {
       teams: {
         home: {
           id: 11,
-          name: "Shilvi",
-          logo: "https://i.pinimg.com/originals/a8/1a/72/a81a7215b02f6a9a6b5b1b28d2f2882f.png",
+          name: "2006",
+          logo: "https://ir.ozone.ru/s3/multimedia-9/6623358309.jpg",
           winner: false,
         },
         away: {
           id: 11,
-          name: "2001",
-          logo: "https://e7.pngegg.com/pngimages/498/41/png-clipart-real-madrid-c-f-2011-12-la-liga-football-sport-decal-football-sport-logo.png",
+          name: "1994",
+          logo: "https://i1.wp.com/www.logolynx.com/images/logolynx/35/354731294375cebc25559ce1621c9ae4.jpeg",
           winner: true,
         },
       },
@@ -131,7 +131,7 @@ export const data = {
       },
       league: {
         id: 2,
-        name: " 2 - TUR",
+        name: " 4 - TUR",
         country: "UZBEKISTAN",
         logo: "https://www.pinclipart.com/picdir/big/209-2095185_champions-league-logo-champions-league-football-logo-clipart.png",
         flag: "https://media-3.api-sports.io/flags/dk.svg",
@@ -141,14 +141,14 @@ export const data = {
       teams: {
         home: {
           id: 22,
-          name: "2006",
-          logo: "https://ir.ozone.ru/s3/multimedia-9/6623358309.jpg",
+          name: "1996",
+          logo: "https://sport-results.ru/wp-content/uploads/2023/04/borussia_dortmund_logo.svg.png",
           winner: false,
         },
         away: {
           id: 22,
-          name: "1999",
-          logo: "https://grizly.club/uploads/posts/2023-08/1691677799_grizly-club-p-kartinki-logo-liverpulya-bez-fona-8.png",
+          name: "2003",
+          logo: "https://cdn.shopify.com/s/files/1/0518/3432/3098/products/Milanlogomockupfuljpeg.jpg?v=1659529798",
           winner: true,
         },
       },
@@ -228,7 +228,7 @@ export const data = {
       },
       league: {
         id: 3,
-        name: " 2 - TUR",
+        name: " 4 - TUR",
         country: "UZBEKISTAN",
         logo: "https://www.pinclipart.com/picdir/big/209-2095185_champions-league-logo-champions-league-football-logo-clipart.png",
         flag: "https://media-3.api-sports.io/flags/dk.svg",
@@ -244,8 +244,8 @@ export const data = {
         },
         away: {
           id: 33,
-          name: "1992", 
-          logo: "https://basket-03.wb.ru/vol346/part34646/34646194/images/big/1.jpg",
+          name: "2001", 
+          logo: "https://e7.pngegg.com/pngimages/498/41/png-clipart-real-madrid-c-f-2011-12-la-liga-football-sport-decal-football-sport-logo.png",
           winner: true,
         },
       },
@@ -325,7 +325,7 @@ export const data = {
       },
       league: {
         id: 4,
-        name: " 2 - TUR",
+        name: " 4 - TUR",
         country: "UZBEKISTAN",
         logo: "https://www.pinclipart.com/picdir/big/209-2095185_champions-league-logo-champions-league-football-logo-clipart.png",
         flag: "https://media-3.api-sports.io/flags/dk.svg",
@@ -335,14 +335,14 @@ export const data = {
       teams: {
         home: {
           id: 44,
-          name: "1994",
-          logo: "https://i1.wp.com/www.logolynx.com/images/logolynx/35/354731294375cebc25559ce1621c9ae4.jpeg",
+          name: "1992",
+          logo: "https://basket-03.wb.ru/vol346/part34646/34646194/images/big/1.jpg",
           winner: false,
         },
         away: {
           id: 44,
-          name: "1996",
-          logo: "https://sport-results.ru/wp-content/uploads/2023/04/borussia_dortmund_logo.svg.png",
+          name: "1995",
+          logo: "https://i.pinimg.com/originals/14/6e/0f/146e0f3a0694840f9349e5edf0e7b1f1.png",
           winner: true,
         },
       },
@@ -422,7 +422,7 @@ export const data = {
       },
       league: {
         id: 5,
-        name: " 2 - TUR",
+        name: " 4 - TUR",
         country: "UZBEKISTAN",
         logo: "https://www.pinclipart.com/picdir/big/209-2095185_champions-league-logo-champions-league-football-logo-clipart.png",
         flag: "https://media-3.api-sports.io/flags/dk.svg",
@@ -432,14 +432,14 @@ export const data = {
       teams: {
         home: {
           id: 55,
-          name: "1995",
-          logo:"https://i.pinimg.com/originals/14/6e/0f/146e0f3a0694840f9349e5edf0e7b1f1.png",
+          name: "Shilvi",
+          logo:"https://i.pinimg.com/originals/a8/1a/72/a81a7215b02f6a9a6b5b1b28d2f2882f.png",
           winner: false,
         },
         away: {
           id: 55,
-          name: "2003",
-          logo: "https://cdn.shopify.com/s/files/1/0518/3432/3098/products/Milanlogomockupfuljpeg.jpg?v=1659529798",
+          name: "1999",
+          logo: "https://grizly.club/uploads/posts/2023-08/1691677799_grizly-club-p-kartinki-logo-liverpulya-bez-fona-8.png",
           winner: true,
         },
       },

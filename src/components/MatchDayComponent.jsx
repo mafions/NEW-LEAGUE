@@ -47,7 +47,7 @@ const MatchDayComponent = () => {
 
   const getMatchStatus = (status) => {
     if (status === "Full Time") {
-      return <div className='bg-[#7685a5] flex items-center justify-center py-1 rounded-b-lg'><p className='text-white font-semibold text-sm'> RAQOBATLI 😱</p></div>;
+      return <div className='bg-[#7685a5] flex items-center justify-center py-1 rounded-b-lg'><p className='text-white font-semibold text-sm'> Olov🔥 </p></div>;
     } else if (status === "In Play") {
       return <div className='bg-[#ff4b44] flex items-center justify-center py-1 rounded-b-lg'><p className='text-white font-semibold text-sm'>EN JUEGO</p></div>;
     } else {

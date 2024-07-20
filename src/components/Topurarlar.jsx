@@ -39,10 +39,168 @@ const Topurarlar = () => {
               <p>Age: 18 </p>
               <h4>
                 <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
-                &nbsp;&nbsp;&nbsp; 4 goals
+                &nbsp;&nbsp;&nbsp; 8 goals
               </h4>
             </section>
             {/* <br style={{ clear: 'both' }} /> */}
+            <hr />
+          </section>
+
+          <section className="container" id="Abu">
+            <img src="https://football-fun-live.com/uploads/38/posts/ibrajpg.jpg" alt="Ronaldo" style={{ width: '100%' }} />
+            <section className="text-block">
+              <h3>Abu</h3>
+              {/* <p>
+                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
+                <span className="HideTxt"> Portugal </span>
+              </p> */}
+              <p>
+                Club: <img src="https://cdn.shopify.com/s/files/1/0518/3432/3098/products/Milanlogomockupfuljpeg.jpg?v=1659529798" alt="2003" className="club" />
+                <span className="HideTxt"> 2003 </span>
+              </p>
+              <p>
+                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
+                <span className="HideTxt"> Liga 3# </span>
+              </p>
+              <p>Age: ? </p>
+              <h4>
+                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
+                &nbsp;&nbsp;&nbsp; 6 goals
+              </h4>
+            </section>
+            <br style={{ clear: 'both' }} />
+            <hr />
+          </section>
+
+
+          <section className="container" id="Asatbek">
+            <img src="https://avatars.dzeninfra.ru/get-zen_doc/4963481/pub_62d9b5bec9ee5c0a87b9e91a_62dd91edc9ee5c0a8754647f/scale_1200" alt="Ronaldo" style={{ width: '100%' }} />
+            <section className="text-block">
+              <h3>Asatbek</h3>
+              {/* <p>
+                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
+                <span className="HideTxt"> Portugal </span>
+              </p> */}
+              <p>
+                Club: <img src="https://cdn.shopify.com/s/files/1/0518/3432/3098/products/Milanlogomockupfuljpeg.jpg?v=1659529798" alt="2003" className="club" />
+                <span className="HideTxt"> 2003 </span>
+              </p>
+              <p>
+                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
+                <span className="HideTxt"> Liga 3# </span>
+              </p>
+              <p>Age: ? </p>
+              <h4>
+                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
+                &nbsp;&nbsp;&nbsp; 5 goals
+              </h4>
+            </section>
+            <br style={{ clear: 'both' }} />
+            <hr />
+          </section>
+          <section className="container" id="Isfandiyor">
+            <img src="https://icdn.sempremilan.com/wp-content/uploads/2022/07/spezia-calcio-v-ac-milan-serie-a-27.jpg" alt="Ronaldo" style={{ width: '100%' }} />
+            <section className="text-block">
+              <h3>Isfandiyor</h3>
+              {/* <p>
+                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
+                <span className="HideTxt"> Portugal </span>
+              </p> */}
+              <p>
+                Club: <img src="https://cdn.shopify.com/s/files/1/0518/3432/3098/products/Milanlogomockupfuljpeg.jpg?v=1659529798" alt="2003" className="club" />
+                <span className="HideTxt"> 2003 </span>
+              </p>
+              <p>
+                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
+                <span className="HideTxt"> Liga 3# </span>
+              </p>
+              <p>Age: ? </p>
+              <h4>
+                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
+                &nbsp;&nbsp;&nbsp; 4 goals
+              </h4>
+            </section>
+            <br style={{ clear: 'both' }} />
+            <hr />
+          </section>
+
+
+          <section className="container" id="Asatbek">
+            <img src="https://images2.minutemediacdn.com/image/fetch/https%3A%2F%2Fpaininthearsenal.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F01%2F632386468-arsenal-v-burnley-premier-league.jpg" alt="Ronaldo" style={{ width: '100%' }} />
+            <section className="text-block">
+              <h3>Asatbek</h3>
+              {/* <p>
+                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
+                <span className="HideTxt"> Portugal </span>
+              </p> */}
+              <p>
+                Club: <img src="https://vectorseek.com/wp-content/uploads/2023/10/Dfb-Logo-Vector.svg-.png" alt="MFC" className="club" />
+                <span className="HideTxt"> MFC </span>
+              </p>
+              <p>
+                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
+                <span className="HideTxt"> Liga 3# </span>
+              </p>
+              <p>Age: 19 </p>
+              <h4>
+                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
+                &nbsp;&nbsp;&nbsp; 3 goals
+              </h4>
+            </section>
+            <br style={{ clear: 'both' }} />
+            <hr />
+          </section>
+
+
+          <section className="container" id="Komilbek">
+            <img src="https://images2.minutemediacdn.com/image/fetch/w_2000,h_2000,c_fit/https://everythingbarca.com/wp-content/uploads/getty-images/2018/08/1192763964.jpeg" alt="Ronaldo" style={{ width: '100%' }} />
+            <section className="text-block">
+              <h3>Komilbek</h3>
+              {/* <p>
+                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
+                <span className="HideTxt"> Portugal </span>
+              </p> */}
+              <p>
+                Club: <img src="https://vectorseek.com/wp-content/uploads/2023/10/Dfb-Logo-Vector.svg-.png" alt="MFC" className="club" />
+                <span className="HideTxt"> MFC </span>
+              </p>
+              <p>
+                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
+                <span className="HideTxt"> Liga 3# </span>
+              </p>
+              <p>Age: 23 </p>
+              <h4>
+                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
+                &nbsp;&nbsp;&nbsp; 3 goals
+              </h4>
+            </section>
+            <br style={{ clear: 'both' }} />
+            <hr />
+          </section>
+
+          <section className="container" id="Izzatbek">
+            <img src="https://79s.ru/wp-content/uploads/2022/11/d98ec473e44bb6e3052b43de6e89a0ba.jpg" alt="Benzema" style={{ width: '100%' }} />
+            <section className="text-block">
+              <h3>Izzatbek</h3>
+              {/* <p>
+                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
+                <span className="HideTxt"> Portugal </span>
+              </p> */}
+              <p>
+                Club: <img src="https://vectorseek.com/wp-content/uploads/2023/10/Dfb-Logo-Vector.svg-.png" alt="MFC" className="club" />
+                <span className="HideTxt"> MFC </span>
+              </p>
+              <p>
+                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
+                <span className="HideTxt"> Liga 3# </span>
+              </p>
+              <p>Age: 28 </p>
+              <h4>
+                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
+                &nbsp;&nbsp;&nbsp; 3 goals
+              </h4>
+            </section>
+            <br style={{ clear: 'both' }} />
             <hr />
           </section>
 
@@ -66,6 +224,138 @@ const Topurarlar = () => {
               <h4>
                 <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
                 &nbsp;&nbsp;&nbsp; 3 goals
+              </h4>
+            </section>
+            <br style={{ clear: 'both' }} />
+            <hr />
+          </section>
+
+          <section className="container" id="Abdulaziz">
+            <img src="https://video-images.vice.com/articles/595e53d1db673247bd8e89ac/lede/1499354169054-David-Beckham-PA-Images.jpeg" alt="Ronaldo" style={{ width: '100%' }} />
+            <section className="text-block">
+              <h3>Abdulaziz</h3>
+              {/* <p>
+                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
+                <span className="HideTxt"> Portugal </span>
+              </p> */}
+              <p>
+                Club: <img src="https://vectorseek.com/wp-content/uploads/2023/10/Dfb-Logo-Vector.svg-.png" alt="MFC" className="club" />
+                <span className="HideTxt"> MFC </span>
+              </p>
+              <p>
+                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
+                <span className="HideTxt"> Liga 3# </span>
+              </p>
+              <p>Age: ? </p>
+              <h4>
+                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
+                &nbsp;&nbsp;&nbsp; 3 goals
+              </h4>
+            </section>
+            <br style={{ clear: 'both' }} />
+            <hr />
+          </section>
+
+
+          <section className="container" id="Kamoliddin">
+            <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltd51750bbf3c0d23e/60df1f67291ae22336471a7b/eda450984d72c58d3e676467a781a00e84bade29.jpg" alt="Ronaldo" style={{ width: '100%' }} />
+            <section className="text-block">
+              <h3>Kamoliddin</h3>
+              {/* <p>
+                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
+                <span className="HideTxt"> Portugal </span>
+              </p> */}
+              <p>
+                Club: <img src="https://ir.ozone.ru/s3/multimedia-9/6623358309.jpg" alt="2006" className="club" />
+                <span className="HideTxt"> 2006 </span>
+              </p>
+              <p>
+                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
+                <span className="HideTxt"> Liga 3# </span>
+              </p>
+              <p>Age: 20 </p>
+              <h4>
+                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
+                &nbsp;&nbsp;&nbsp; 2 goals
+              </h4>
+            </section>
+            <br style={{ clear: 'both' }} />
+            <hr />
+          </section>
+
+          <section className="container" id="Nodirbek">
+            <img src="https://s5o.ru/storage/simple/ru/edt/e2/93/a4/5a/ruedba7b8dbf6.jpg" alt="Ronaldo" style={{ width: '100%' }} />
+            <section className="text-block">
+              <h3>Nodirbek</h3>
+              {/* <p>
+                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
+                <span className="HideTxt"> Portugal </span>
+              </p> */}
+              <p>
+                Club: <img src="https://vectorseek.com/wp-content/uploads/2023/10/Dfb-Logo-Vector.svg-.png" alt="MFC" className="club" />
+                <span className="HideTxt"> MFC </span>
+              </p>
+              <p>
+                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
+                <span className="HideTxt"> Liga 3# </span>
+              </p>
+              <p>Age: 17 </p>
+              <h4>
+                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
+                &nbsp;&nbsp;&nbsp; 2 goals
+              </h4>
+            </section>
+            <br style={{ clear: 'both' }} />
+            <hr />
+          </section>
+
+
+          <section className="container" id="Dovudbek">
+            <img src="https://i.pinimg.com/originals/a7/14/54/a71454b8e4b3b9d627cd4837e5309316.jpg" alt="Ronaldo" style={{ width: '100%' }} />
+            <section className="text-block">
+              <h3>Dovudbek</h3>
+              {/* <p>
+                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
+                <span className="HideTxt"> Portugal </span>
+              </p> */}
+              <p>
+                Club: <img src="https://basket-03.wb.ru/vol346/part34646/34646194/images/big/1.jpg" alt="1992" className="club" />
+                <span className="HideTxt"> 1992 </span>
+              </p>
+              <p>
+                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
+                <span className="HideTxt"> Liga 3# </span>
+              </p>
+              <p>Age: 18 </p>
+              <h4>
+                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
+                &nbsp;&nbsp;&nbsp; 2 goals
+              </h4>
+            </section>
+            <br style={{ clear: 'both' }} />
+            <hr />
+          </section>
+
+          <section className="container" id="Mirzolim">
+            <img src="https://static.independent.co.uk/2023/10/30/06/2cdd55ce2894af9e65f3aa3d3753f3c9Y29udGVudHNlYXJjaGFwaSwxNjk4NjUzNDEz-2.6879693.jpg" alt="Ronaldo" style={{ width: '100%' }} />
+            <section className="text-block">
+              <h3>Mirzolim</h3>
+              {/* <p>
+                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
+                <span className="HideTxt"> Portugal </span>
+              </p> */}
+              <p>
+                Club: <img src="https://cdn.shopify.com/s/files/1/0518/3432/3098/products/Milanlogomockupfuljpeg.jpg?v=1659529798" alt="2003" className="club" />
+                <span className="HideTxt"> 2003 </span>
+              </p>
+              <p>
+                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
+                <span className="HideTxt"> Liga 3# </span>
+              </p>
+              <p>Age: ? </p>
+              <h4>
+                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
+                &nbsp;&nbsp;&nbsp; 2 goals
               </h4>
             </section>
             <br style={{ clear: 'both' }} />
@@ -99,58 +389,10 @@ const Topurarlar = () => {
             <hr />
           </section>
 
-          <section className="container" id="Komilbek">
-            <img src="https://sportishka.com/uploads/posts/2022-11/1667459873_6-sportishka-com-p-maldini-futbolist-instagram-6.jpg" alt="Ronaldo" style={{ width: '100%' }} />
-            <section className="text-block">
-              <h3>Komilbek</h3>
-              {/* <p>
-                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
-                <span className="HideTxt"> Portugal </span>
-              </p> */}
-              <p>
-                Club: <img src="https://vectorseek.com/wp-content/uploads/2023/10/Dfb-Logo-Vector.svg-.png" alt="MFC" className="club" />
-                <span className="HideTxt"> MFC </span>
-              </p>
-              <p>
-                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
-                <span className="HideTxt"> Liga 3# </span>
-              </p>
-              <p>Age: 23 </p>
-              <h4>
-                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
-                &nbsp;&nbsp;&nbsp; 1 goals
-              </h4>
-            </section>
-            <br style={{ clear: 'both' }} />
-            <hr />
-          </section>
+          
 
 
-          <section className="container" id="Izzatbek">
-            <img src="https://79s.ru/wp-content/uploads/2022/11/d98ec473e44bb6e3052b43de6e89a0ba.jpg" alt="Benzema" style={{ width: '100%' }} />
-            <section className="text-block">
-              <h3>Izzatbek</h3>
-              {/* <p>
-                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
-                <span className="HideTxt"> Portugal </span>
-              </p> */}
-              <p>
-                Club: <img src="https://vectorseek.com/wp-content/uploads/2023/10/Dfb-Logo-Vector.svg-.png" alt="MFC" className="club" />
-                <span className="HideTxt"> MFC </span>
-              </p>
-              <p>
-                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
-                <span className="HideTxt"> Liga 3# </span>
-              </p>
-              <p>Age: 28 </p>
-              <h4>
-                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
-                &nbsp;&nbsp;&nbsp; 1 goals
-              </h4>
-            </section>
-            <br style={{ clear: 'both' }} />
-            <hr />
-          </section>
+        
 
           <section className="container" id="Samandar">
             <img src="https://imgresizer.eurosport.com/unsafe/2560x1440/filters:format(jpeg)/origin-imgresizer.eurosport.com/2021/08/24/3206296-65681188-2560-1440.jpg" alt="Ronaldo" style={{ width: '100%' }} />
@@ -179,83 +421,11 @@ const Topurarlar = () => {
           </section>
 
 
-          <section className="container" id="Asatbek">
-            <img src="https://images2.minutemediacdn.com/image/fetch/https%3A%2F%2Fpaininthearsenal.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F01%2F632386468-arsenal-v-burnley-premier-league.jpg" alt="Ronaldo" style={{ width: '100%' }} />
-            <section className="text-block">
-              <h3>Asatbek</h3>
-              {/* <p>
-                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
-                <span className="HideTxt"> Portugal </span>
-              </p> */}
-              <p>
-                Club: <img src="https://vectorseek.com/wp-content/uploads/2023/10/Dfb-Logo-Vector.svg-.png" alt="MFC" className="club" />
-                <span className="HideTxt"> MFC </span>
-              </p>
-              <p>
-                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
-                <span className="HideTxt"> Liga 3# </span>
-              </p>
-              <p>Age: 19 </p>
-              <h4>
-                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
-                &nbsp;&nbsp;&nbsp; 1 goals
-              </h4>
-            </section>
-            <br style={{ clear: 'both' }} />
-            <hr />
-          </section>
+          
+          
+          
 
-          <section className="container" id="Abdulaziz">
-            <img src="https://video-images.vice.com/articles/595e53d1db673247bd8e89ac/lede/1499354169054-David-Beckham-PA-Images.jpeg" alt="Ronaldo" style={{ width: '100%' }} />
-            <section className="text-block">
-              <h3>Abdulaziz</h3>
-              {/* <p>
-                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
-                <span className="HideTxt"> Portugal </span>
-              </p> */}
-              <p>
-                Club: <img src="https://vectorseek.com/wp-content/uploads/2023/10/Dfb-Logo-Vector.svg-.pngg" alt="MFC" className="club" />
-                <span className="HideTxt"> MFC </span>
-              </p>
-              <p>
-                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
-                <span className="HideTxt"> Liga 3# </span>
-              </p>
-              <p>Age: ? </p>
-              <h4>
-                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
-                &nbsp;&nbsp;&nbsp; 1 goals
-              </h4>
-            </section>
-            <br style={{ clear: 'both' }} />
-            <hr />
-          </section>
-
-          <section className="container" id="Dovudbek">
-            <img src="https://i.pinimg.com/originals/a7/14/54/a71454b8e4b3b9d627cd4837e5309316.jpg" alt="Ronaldo" style={{ width: '100%' }} />
-            <section className="text-block">
-              <h3>Dovudbek</h3>
-              {/* <p>
-                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
-                <span className="HideTxt"> Portugal </span>
-              </p> */}
-              <p>
-                Club: <img src="https://basket-03.wb.ru/vol346/part34646/34646194/images/big/1.jpg" alt="1992" className="club" />
-                <span className="HideTxt"> 1992 </span>
-              </p>
-              <p>
-                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
-                <span className="HideTxt"> Liga 3# </span>
-              </p>
-              <p>Age: 18 </p>
-              <h4>
-                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
-                &nbsp;&nbsp;&nbsp; 1 goals
-              </h4>
-            </section>
-            <br style={{ clear: 'both' }} />
-            <hr />
-          </section>
+          
 
 
           
@@ -296,7 +466,7 @@ const Topurarlar = () => {
                 <span className="HideTxt"> Portugal </span>
               </p> */}
               <p>
-                Club: <img src="/Juve.png" alt="2006" className="club" />
+                Club: <img src="https://e7.pngegg.com/pngimages/498/41/png-clipart-real-madrid-c-f-2011-12-la-liga-football-sport-decal-football-sport-logo.png" alt="2006" className="club" />
                 <span className="HideTxt"> 2001 </span>
               </p>
               <p>
@@ -313,31 +483,7 @@ const Topurarlar = () => {
             <hr />
           </section>
 
-          <section className="container" id="Kamoliddin">
-            <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltd51750bbf3c0d23e/60df1f67291ae22336471a7b/eda450984d72c58d3e676467a781a00e84bade29.jpg" alt="Ronaldo" style={{ width: '100%' }} />
-            <section className="text-block">
-              <h3>Kamoliddin</h3>
-              {/* <p>
-                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
-                <span className="HideTxt"> Portugal </span>
-              </p> */}
-              <p>
-                Club: <img src="https://ir.ozone.ru/s3/multimedia-9/6623358309.jpg" alt="2006" className="club" />
-                <span className="HideTxt"> 2006 </span>
-              </p>
-              <p>
-                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
-                <span className="HideTxt"> Liga 3# </span>
-              </p>
-              <p>Age: 20 </p>
-              <h4>
-                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
-                &nbsp;&nbsp;&nbsp; 1 goals
-              </h4>
-            </section>
-            <br style={{ clear: 'both' }} />
-            <hr />
-          </section>
+          
 
 
           <section className="container" id="Elyor">
@@ -393,9 +539,74 @@ const Topurarlar = () => {
             <hr />
           </section>
 
+
+          <section className="container" id="Mardonbek">
+            <img src="https://img.goodfon.ru/original/2880x1800/6/59/wayne-rooney-manchester-1957.jpg" alt="Ronaldo" style={{ width: '100%' }} />
+            <section className="text-block">
+              <h3>Mardonbek</h3>
+              {/* <p>
+                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
+                <span className="HideTxt"> Portugal </span>
+              </p> */}
+              <p>
+                Club: <img src="https://ir.ozone.ru/s3/multimedia-9/6623358309.jpg" alt="2006" className="club" />
+                <span className="HideTxt"> 2006 </span>
+              </p>
+              <p>
+                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
+                <span className="HideTxt"> Liga 3# </span>
+              </p>
+              <p>Age: ? </p>
+              <h4>
+                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
+                &nbsp;&nbsp;&nbsp; 1 goals
+              </h4>
+            </section>
+            <br style={{ clear: 'both' }} />
+            <hr />
+          </section>
+
+         
+
+
+          
+
+
+          <section className="container" id="Muhammadiyor">
+            <img src="https://sportishka.com/uploads/posts/2022-11/1667459873_6-sportishka-com-p-maldini-futbolist-instagram-6.jpg" alt="Ronaldo" style={{ width: '100%' }} />
+            <section className="text-block">
+              <h3>Muhammadiyor</h3>
+              {/* <p>
+                National Team: <img src="/PortugalFlag.png" alt="Portugal" className="flag" />{' '}
+                <span className="HideTxt"> Portugal </span>
+              </p> */}
+              <p>
+                Club: <img src="https://cdn.shopify.com/s/files/1/0518/3432/3098/products/Milanlogomockupfuljpeg.jpg?v=1659529798" alt="2003" className="club" />
+                <span className="HideTxt"> 2003 </span>
+              </p>
+              <p>
+                League: <img src="https://cdn3.vectorstock.com/i/1000x1000/04/37/n-letter-logo-template-vector-11180437.jpg" alt="Madaniyat" className="league" />
+                <span className="HideTxt"> Liga 3# </span>
+              </p>
+              <p>Age: ? </p>
+              <h4>
+                <i className="fa fa-trophy" style={{ fontSize: '4vw', color: '#FFD700' }}></i>{' '}
+                &nbsp;&nbsp;&nbsp; 1 goals
+              </h4>
+            </section>
+            <br style={{ clear: 'both' }} />
+            <hr />
+          </section>
+          
+         
+
           {/* Other player sections (similar structure) */}
         </article>
       </main>
+
+
+
+      
 
       {/* Right side navigation bar */}
       {/* <nav className="sidenav">
